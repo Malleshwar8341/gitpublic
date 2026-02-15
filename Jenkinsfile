@@ -4,7 +4,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
+
                 git 'https://github.com/your-repo/cicd-demo.git'
+                git 'https://github.com/Malleshwar8341/gitpublic.git'
+
             }
         }
 
